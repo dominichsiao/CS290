@@ -1,0 +1,220 @@
+* { margin: 0; padding: 0 }
+a {text-decoration: none; color: black;}
+
+
+html {
+    font-family: roboto;
+    font: roboto;
+    /*background-color: #eeeeee;*/
+}
+
+h1.site-title{
+    color: white;
+    background-color: #319df6;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+header {
+    background-color: white;
+    /*padding-bottom: 10px;
+    /*margin-top: 5px;
+    /*height: 100px;
+    width: 500px;*/
+}
+
+a:hover{
+    color:#319df6;
+}
+
+.navlist {
+    padding-top: 150px;
+    padding-left: 20px;
+    color:#eeeeee;
+    display: inline;
+}
+
+.navitem{
+    display: inline;
+    font-size: 20px;
+    margin: 10px;
+    color: #eeeeee
+}
+
+.navlink{
+    padding-top: 00px;
+}
+
+.navitem a:hover{
+    /*text-decoration: underline;*/
+    color: #319df6;
+}
+
+.navitem a:focus{
+    padding-bottom: 14px;
+    border-bottom: 3px solid #319df6;
+}
+
+.active {
+    /*text-decoration: underline;*/
+    text-decoration-color: #319df6;
+}
+
+.navbar{
+    padding: 0px 0px 16px 0px;
+    margin: 0;
+    /*padding-top: 10px;
+    /*padding-bottom: 10px;*/
+}
+
+.navbar-search{
+    float: right;
+    padding-bottom: 15px;
+    height: 1px;
+    /*background-color: #dadada;*/
+}
+
+
+/*.navbar-search:hover{
+    text-align: right;
+    background-color: white;
+    color: greenyellow;
+}*/
+
+#navbar-search-input{
+    background-color: #eeecef;
+    border: .25px solid #dadada;
+    color: black;
+    text-align: left;
+    margin-right: 20;
+    height: 25px;
+}
+
+button:hover{
+    color: #319df6;
+}
+
+#navbar-search-input:hover{
+    cursor: text;
+    border-color: white;
+    border: .25px solid #dadada;
+}
+
+
+input:focus{
+    background-color: white;
+    color: black;
+}
+
+#navbar-search-button{
+    background-color:white;
+    border: greenyellow;
+    color: black;
+    margin-right: 20px;
+    height:30px;
+    width: 30px;
+}
+
+#navbar-search-button:hover{
+    color:  #319df6;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: #eeeeee;
+}
+
+.twit{
+    height: 150px;
+    width: 500px;
+    background-color: white;
+    margin: 5px;
+    border: .25px solid #dadada;
+    /*margin-right: 100px;*/
+    /*margin-left: 100px;*/
+}
+
+.twit-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 75px;
+    /*justify-content: center;
+    align-items: flex-start;*/
+
+}
+
+
+.twit-context{
+    background-color: yellowgreen;
+    size: 100px;
+}
+
+.twit-text{
+    font-weight: bold;
+    /*padding-left: 50px;*/
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 40px;
+}
+
+.twit-author{
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.twit-author:hover{
+    color: #319df6;
+}
+
+.twit-icon{
+    float: left;
+    display: inline;
+    vertical-align: bottom;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+    background-size: 50% 50%;
+    font-size: 30px;
+    /*float: bottom;*/
+    
+}
+
+#create-twit-button{
+    border-radius: 100px;
+    background-color: #f8160d;
+    border: 2px solid #eeeeee;
+    border-color: red;
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    text-decoration-color: white;
+    box-shadow: 5px 5px 30px -5px black;*/
+}
+
+#create-twit-button:hover{
+    background-color: #319df6;
+    border-color: #319df6;
+    cursor: pointer;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+}
+
